@@ -66,7 +66,6 @@ public class LinkedList01{
         int count=0;
         node temp=head;
         while(count==index+1 && temp.next!=null){
-            n
             temp.next=n;
         }
     }

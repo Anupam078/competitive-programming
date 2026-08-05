@@ -1,0 +1,2 @@
+It checks that counts the number of positive integers less than or equal to $n$ that are relatively prime (or coprime) to $n$
+In this algorithm we will use Euclidean algorithm to find out gcd.

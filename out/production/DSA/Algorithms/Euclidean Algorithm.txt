@@ -1,0 +1,2 @@
+It is an algorithm to find the greatest common divisor of two numbers in a efficent way.
+It uses a simple mathematical fact that gcd of a,b is equal to gcd of b,a%b.
