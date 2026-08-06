@@ -1,0 +1,10 @@
+A strobogrammatic number is a number that looks exactly the same when you rotate it 180 degrees (in other words, when you turn it completely upside down).
+0 flips to 0
+
+1 flips to 1
+
+8 flips to 8
+
+6 flips to 9
+
+9 flips to 6
