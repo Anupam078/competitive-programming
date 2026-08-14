@@ -1,4 +1,4 @@
-public class Main {
+/*public class Main {
     public static void main(String[] args) {
         LinkedList01 list= new LinkedList01();
         list.insertAtFirst(5);
@@ -7,4 +7,4 @@ public class Main {
         list.insertAtLast(99);
         list.displayList();
     }
-}
+}*/
