@@ -1,3 +1,5 @@
+package CodeForces.FootBall_96A;
+
 import java.util.Scanner;
 
 public class Main {
