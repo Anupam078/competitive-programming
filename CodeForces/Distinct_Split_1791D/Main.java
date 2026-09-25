@@ -1,8 +1,9 @@
 package CodeForces.Distinct_Split_1791D;
 
+import java.util.HashSet;
 import java.util.Scanner;
 
-public class Mian {
+public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -10,19 +11,18 @@ public class Mian {
         for(int x = 0 ; x<n ; x++){
             int len = sc.nextInt();
             String str = sc.next();
-            int ci=0;
-            int cj=0;
             int mx=0;
-            int sum=0;
-            for(int i=0;i<len;i++){
-                if(str.charAt(i)==str.charAt(i+1)){
-                    ci++;
+            for (int i = 0; i < len - 1; i++) {
+                HashSet<Character> leftSet = new HashSet<>();
+                HashSet<Character> rightSet = new HashSet<>();
+                for (int j = 0; j <= i; j++) {
+                    leftSet.add(str.charAt(j));
                 }
-                if(str.charAt(len-i-1)==str.charAt(len-i-2)){
-                    cj++;
+                for (int j = i + 1; j < len; j++) {
+                    rightSet.add(str.charAt(j));
                 }
-                sum=ci+cj;
-                mx=Math.max(sum,mx);
+                int current = leftSet.size() + rightSet.size();
+                mx = Math.max(mx, current);
             }
             System.out.println(mx);
         }
