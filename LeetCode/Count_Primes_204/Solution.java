@@ -7,8 +7,8 @@ class Solution {
         if(n<=2){return 0;}
         boolean[] isPrime = new boolean[n];
         Arrays.fill(isPrime,true);
-        if (n>=0) isPrime[0]=false;
-        if (n>=1) isPrime[1]=false;
+        isPrime[0]=false;
+        isPrime[1]=false;
 
         for(int i=2; i<=Math.sqrt(n);i++){
             if(isPrime[i]){
