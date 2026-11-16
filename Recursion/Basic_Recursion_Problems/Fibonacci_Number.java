@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Basic_Recursion_Problems;
 
 public class Fibonacci_Number {
     public static int nthFibonacci(int n){

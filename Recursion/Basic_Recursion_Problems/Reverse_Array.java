@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Basic_Recursion_Problems;
 
 public class Reverse_Array {
     public static int [] reverseArray(int [] arr , int  l, int r){
