@@ -1,6 +1,5 @@
-package LeetCode.Kth_Largest_Element_in_a_Stream;
+package LeetCode.Kth_Largest_Element_in_a_Stream_703;
 
-import java.util.Collections;
 import java.util.PriorityQueue;
 
 public class KthLargest {
